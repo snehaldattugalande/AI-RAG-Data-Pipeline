@@ -16,25 +16,27 @@ This repository contains a FastAPI backend and Streamlit frontend that let you u
 
 ```mermaid
 flowchart LR
-	subgraph FE[Frontend]
-		A[Streamlit UI]
-	end
+    subgraph FE[Frontend]
+        A[Streamlit UI]
+    end
 
-	subgraph BE[Backend]
-		B[FastAPI API]
-		ETL[ETL Pipeline]
-		EMB[Embedding Pipeline]
-		VS[VectorStore (ChromaDB)]
-		RAG[RAG / Chat Service]
-	end
+    subgraph BE[Backend]
+        B[FastAPI API]
+        ETL[ETL Pipeline]
+        EMB[Embedding Pipeline]
+        VS["VectorStore (ChromaDB)"]
+        RAG["RAG / Chat Service"]
+    end
 
-	A -->|REST: upload/query/chat| B
-	B --> ETL --> EMB --> VS
-	B --> RAG --> VS
-	VS --> RAG
-	style FE fill:#f9f,stroke:#333,stroke-width:1px
-	style BE fill:#efe,stroke:#333,stroke-width:1px
+    A -->|REST: upload/query/chat| B
+    B --> ETL --> EMB --> VS
+    B --> RAG --> VS
+    VS --> RAG
+
+    style FE fill:#f9f,stroke:#333,stroke-width:1px
+    style BE fill:#efe,stroke:#333,stroke-width:1px
 ```
+
 
 **Tech stack**
 
@@ -174,3 +176,10 @@ AI_RAG_Data_Pipeline — a production-oriented Retrieval-Augmented Generation da
 ---
 
 If you want, I can add a `CONTRIBUTING.md`, provide sample screenshots, or export a Markdown version of the architecture diagram as a PNG.
+
+
+
+
+
+
+
