@@ -169,7 +169,7 @@ Add screenshots to illustrate the UI. Place images in `/frontend/screenshots/` a
 - Multi-model support with model selection in UI
 - Add unit/integration tests and CI pipeline
 
-## Resume-ready Project Description
+## Project Description
 
 AI_RAG_Data_Pipeline — a production-oriented Retrieval-Augmented Generation data engineering project built with FastAPI, Streamlit, LangChain, and ChromaDB. The system ingests PDFs and CSVs, performs ETL and text normalization, generates sentence-transformers embeddings, stores vectors in ChromaDB, and exposes a conversational RAG assistant. Designed for local and containerized deployment, the project demonstrates data engineering, NLP pipeline construction, and practical application of LLM retrieval techniques.
 
