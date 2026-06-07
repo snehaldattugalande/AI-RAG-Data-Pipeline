@@ -175,7 +175,7 @@ AI_RAG_Data_Pipeline — a production-oriented Retrieval-Augmented Generation da
 
 ---
 
-If you want, I can add a `CONTRIBUTING.md`, provide sample screenshots, or export a Markdown version of the architecture diagram as a PNG.
+
 
 
 
